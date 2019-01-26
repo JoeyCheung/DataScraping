@@ -8,7 +8,7 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
+#These lines automatically come when starting a new scrapy project
 BOT_NAME = 'DemoDownloader'
 
 SPIDER_MODULES = ['DemoDownloader.spiders']
@@ -64,12 +64,14 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+
+#added these lines
 ITEM_PIPELINES = {
     'scrapy.pipelines.files.FilesPipeline':1
 }
 
 DOWNLOADER_TIMEOUT = 1200
-
+#this is the path to store your scraped files
 FILES_STORE = '/home/nyjoey/Downloads/DemoDownloader'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
