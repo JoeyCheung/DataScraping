@@ -6,7 +6,7 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-
+# This is always the layout when extraining files
 class DemoDownloaderItem(scrapy.Item):
     file_urls = scrapy.Field()
     files = scrapy.Field()
