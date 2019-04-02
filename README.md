@@ -1,2 +1,2 @@
-# Scraping-Data
-All of my web scrapes, command line tools and more for extracting data
+# DataScraping
+All of my web scrapers, command line tools and more for extracting data
