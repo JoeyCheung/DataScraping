@@ -10,7 +10,7 @@ def remove_html_tags(text):
     return re.sub(clean, '', text)
 
 new_text = remove_html_tags(text[0])
-new_text = new_text.replace("&quot;", "\"");
+new_text = new_text.replace("&quot;", "\"")
 new_text = new_text.strip()
 row = [new_text]
 
