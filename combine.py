@@ -1,7 +1,7 @@
 import os
 import glob
 import pandas as pd
-os.chdir("/Users/cheungjoey/Downloads/gdpr/feedback")
+os.chdir("") #File path here
 
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
